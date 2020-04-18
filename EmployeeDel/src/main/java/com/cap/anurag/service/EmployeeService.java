@@ -15,7 +15,7 @@ public class EmployeeService implements EmployeeServiceI{
 	private EmployeeRepository dao;
 
 	public String deleteEmployee(Integer empId)   {
-		dao.deleteById(empId);
+		dao.delete(empId);
 		return "Deleted Successfully";
 	}
 

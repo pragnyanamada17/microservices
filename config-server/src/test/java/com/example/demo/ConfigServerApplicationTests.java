@@ -1,10 +1,10 @@
-package com.cap.anurag;
+package com.example.demo;
 
 //import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmployeeUpdateApplicationTests {
+class ConfigServerApplicationTests {
 
 	//@Test
 	void contextLoads() {

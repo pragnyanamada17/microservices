@@ -16,14 +16,8 @@ public class EmployeeService {
 	
 
 	public String updateEmployee(EmployeeDetails employee) {
-		boolean result=dao.existsById(employee.getEmployeeID());
-		if(result)
-		{
+		
 			dao.save(employee);
 			return "Updated Successfully";
-		}else
-		{
-			dao.save(employee);
-			return "Update not possible user added ";
-		}
-	}}
+	}
+}
